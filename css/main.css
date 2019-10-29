@@ -1,7 +1,72 @@
 html {
   box-sizing: border-box;
+  font-family: Merriweather, sans-serif;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  display: block;
+  background-color: #d05c2e;
+  color: #fff;
+  padding: 0;
+}
+
+h1 {
+  font-size: 2rem;
+  margin: .3em;
+}
+
+div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+img {
+  display: inline-block;
+  width: 40px;
+  margin: 0;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid #a63f38;
+  text-decoration: none;
+  margin: 0;
+  text-align: center;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a:hover {
+  background-color: #a63f38;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.125rem;
+}
+
+nav li {
+  border-right: 1px solid #a63f38;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 50%;
+  padding: .4em;
 }
